@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "es2017"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@navigators/*": ["./src/navigators/*"],
+      "@reducers/*": ["./src/reducers/*"],
+      "@sagas/*": ["./src/sagas/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@store/*": ["./src/store/*"],
+    }
+  },
+  "exclude": [ "node_modules", ".next", ".vscode", "public" ],
+  "include": [ "**/*.js" ]
+}

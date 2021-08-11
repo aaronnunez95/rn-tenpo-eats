@@ -12,7 +12,7 @@ module.exports = {
           '@lib'       : './src/lib',
           '@screens'   : './src/screens'
         },
-        extensions: [ '.js', '.ios.js', '.android.js' ],
+        extensions: [ '.js', '.ios.js', '.android.js', '.svg' ],
         root      : [ './src' ]
       }
     ]
