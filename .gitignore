@@ -60,3 +60,4 @@ buck-out/
 
 # Custom ignored files
 .env
+.eslintcache
