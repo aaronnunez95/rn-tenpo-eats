@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://reactnative.dev/" target="_blank">
-    <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" width="300">
+    <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" width="150">
   </a>
 </p>
 
@@ -53,7 +53,3 @@ or
 
 - Open the `rn-tenpo-eats/ios` workspace in Xcode or run `xed -b ios`
 - Hit the Run button 
-
-## Run tests
-
-- `yarn test` or `npm test`
